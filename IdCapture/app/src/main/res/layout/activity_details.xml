@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_2"
+    tools:context="com.example.idcapture.DetailsActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="28dp"
+        android:text="R E S U L T S"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+
+        android:layout_width="411dp"
+        android:layout_height="662dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="3dp"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextFormattingParent"
+                android:text="Country of birth: "
+                android:textSize="18sp" />
+
+            <TextView
+                style="@style/TextFormattingChild"
+                android:id="@+id/txtCountryOfBirth"
+               />
+
+            <TextView
+                style="@style/TextFormattingParent"
+                android:text="Date of birth: "/>
+
+            <TextView
+                style="@style/TextFormattingChild"
+                android:id="@+id/txtDateOfBirth"
+                />
+
+            <TextView
+            style="@style/TextFormattingParent"
+                android:text="Date of issue: "/>
+
+            <TextView
+                style="@style/TextFormattingChild"
+                android:id="@+id/txtDateOfIssue"
+                 />
+
+            <TextView
+            style="@style/TextFormattingParent"
+                android:text="Document Number: "/>
+
+            <TextView
+
+                style="@style/TextFormattingChild"
+                android:id="@+id/txtDocNumber"
+                 />
+
+            <TextView
+            style="@style/TextFormattingParent"
+                android:text="Document Type: "/>
+
+            <TextView
+                style="@style/TextFormattingChild"
+                android:id="@+id/txtDocType"
+                 />
+
+            <TextView
+            style="@style/TextFormattingParent"
+                android:text="Given Names: "/>
+
+            <TextView
+                style="@style/TextFormattingChild"
+                android:id="@+id/txtGivenNames"
+                 />
+
+            <TextView
+            style="@style/TextFormattingParent"
+                android:text="ID Number: "/>
+
+            <TextView
+                style="@style/TextFormattingChild"
+                android:id="@+id/txtIdNumber"
+                 />
+
+            <TextView
+            style="@style/TextFormattingParent"
+                android:text="Names: "/>
+
+            <TextView
+                style="@style/TextFormattingChild"
+                android:id="@+id/txtNames"
+                 />
+
+            <TextView
+            style="@style/TextFormattingParent"
+                android:text="Nationality: "/>
+
+            <TextView
+                style="@style/TextFormattingChild"
+                android:id="@+id/txtNationality"
+                 />
+
+            <TextView
+            style="@style/TextFormattingParent"
+                android:text="RSA Code: "/>
+
+            <TextView
+                style="@style/TextFormattingChild"
+                android:id="@+id/txtRSACode"
+                 />
+
+            <TextView
+            style="@style/TextFormattingParent"
+                android:text="Residence Status: "/>
+
+            <TextView
+                style="@style/TextFormattingChild"
+                android:id="@+id/txtResStatus"
+                 />
+
+            <TextView
+            style="@style/TextFormattingParent"
+                android:text="Gender: "/>
+
+            <TextView
+                style="@style/TextFormattingChild"
+                android:id="@+id/txtGender"
+                 />
+
+            <TextView
+            style="@style/TextFormattingParent"
+                android:text="Surname: "/>
+
+            <TextView
+                style="@style/TextFormattingChild"
+                android:id="@+id/txtSurname"
+                 />
+
+            <TextView
+            style="@style/TextFormattingParent"
+                android:text="Cropped Document Image: "/>
+
+            <ImageView
+                android:id="@+id/imageViewCroppedDocumentImage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="7dp" />
+
+            <TextView
+            style="@style/TextFormattingParent"
+                android:text="Document Back Image: "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageViewDocumentBackImage"
+                android:layout_width="200dp"
+                android:layout_height="400dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="7dp" />
+
+            <TextView
+            style="@style/TextFormattingParent"
+                android:text="Document Image: "/>
+
+            <ImageView
+                android:id="@+id/imageViewDocumentImage"
+                android:layout_width="200dp"
+                android:layout_height="400dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="7dp" />
+
+            <TextView
+            style="@style/TextFormattingParent"
+                android:text="Portrait Image: "/>
+
+            <ImageView
+                android:id="@+id/imageViewPortraitImage"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginTop="7dp"
+                android:padding="5dp" />
+
+            <Button
+                android:id="@+id/btnProceed"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+
+                android:background="@drawable/button"
+                android:padding="10dp"
+                android:paddingTop="20dp"
+                android:text="PROCEED"
+                android:textColor="#1c645d" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
